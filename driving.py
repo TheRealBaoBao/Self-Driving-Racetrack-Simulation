@@ -241,7 +241,7 @@ def run_simulation(genomes, config):
 if __name__ == "__main__":
     
     # Load Config
-    config_path = "./config.txt"
+    config_path = "./neural.txt"
     config = neat.config.Config(neat.DefaultGenome,
                                 neat.DefaultReproduction,
                                 neat.DefaultSpeciesSet,
